@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Orbitron:wght@400;500&family=Poppins:ital,wght@0,400;0,500;0,600;1,100;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(29, 29, 29);
+    color: white;
+    font-family: "Poppins","Inter";
+}
+
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-family: "Orbitron";
+    letter-spacing: 2px;
+}
+
+form {
+    border: 1px solid;
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-area {
+    display: flex;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 5px 30px;
+    background: rgb(20, 146, 214);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main {
+    max-width: 700px;
+    border: 1px solid;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#left img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#left a {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: rgb(20, 146, 214);
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#right div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#right span {
+    padding: 4px 10px;
+    border-radius: 10px;
+}
+
+#right span:nth-child(1) {
+    background: crimson;
+}
+
+#right span:nth-child(2) {
+    background: rgb(79, 79, 219);
+}
+
+#right span:nth-child(3) {
+    background: rgb(222, 182, 4);
+}
+
+#right span:nth-child(4) {
+    background: rgb(27, 140, 4);
+}
+
+#right ul {
+    list-style: none;
+    background: black;
+    border-radius: 10px;
+}
+
+#right ul li {
+    padding: 10px;
+    border-bottom: 1px solid rgb(70, 70, 70);
+}
+
+#right ul li:last-child {
+    border: none;
+}
